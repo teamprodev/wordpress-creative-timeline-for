@@ -1,0 +1,179 @@
+/**
+ * 05. Widget
+ */
+.control-section{
+
+  .ctwp-field{
+    padding: 0;
+
+    .ctwp-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 6px;
+
+      h4{
+        display: block;
+        font-size: 13px;
+        line-height: 1;
+        font-weight: 600;
+        color: inherit;
+      }
+    }
+
+    .ctwp-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .ctwp-help{
+    top: -5px;
+    right: -5px;
+  }
+
+  .ctwp-field-select select{
+    width: 100%;
+  }
+
+  .ctwp-field-heading{
+    color: inherit;
+    font-size: 14px;
+    line-height: 1em;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+
+  .ctwp-field-subheading{
+    color: inherit;
+    font-size: 11px;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 10px 15px;
+  }
+
+  .ctwp-subtitle-text{
+    margin-top: 4px;
+    font-size: 12px;
+  }
+
+  .ctwp-field-submessage .ctwp-submessage{
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+
+  .ctwp-fieldset{
+
+    .ctwp-field-submessage .ctwp-submessage,
+    .ctwp-field-heading,
+    .ctwp-field-subheading{
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .ctwp-field-date{
+
+    .ctwp--to{
+      margin-left: 0;
+    }
+  }
+
+  .ctwp-field-sorter{
+
+    ul li{
+      padding: 5px;
+    }
+
+    .ctwp-modules{
+      float: none;
+      width: 100%;
+    }
+
+    .ctwp-modules:first-child{
+      padding-right: 0;
+      padding-bottom: 15px;
+    }
+  }
+
+  .ctwp-field-background{
+
+    .ctwp--background-attributes{
+      flex-direction: column;
+    }
+  }
+
+  .ctwp-field-spacing{
+    input{
+      width: 90px;
+    }
+  }
+
+  .ctwp-field-border{
+
+    .ctwp--input{
+      flex: 1 50%;
+    }
+
+    input,
+    select{
+      width: 100%;
+    }
+  }
+
+  .ctwp-field-spinner{
+    input{
+      width: 50px;
+    }
+  }
+
+  .ctwp-field-number{
+
+    .ctwp--wrap{
+      width: 100%;
+    }
+  }
+
+  .ctwp-field-backup{
+
+    .ctwp-export-data{
+      display: none;
+    }
+  }
+
+  .ctwp-field-fieldset{
+
+    .ctwp-fieldset-content{
+      border-color: #e5e5e5;
+    }
+  }
+
+  .ctwp-tabbed-content,
+  .ctwp-sortable-content,
+  .ctwp-repeater-content,
+  .ctwp-fieldset-content,
+  .ctwp-cloneable-content,
+  .ctwp-accordion-content{
+
+    > .ctwp-field{
+      padding: 10px;
+
+      .ctwp-title{
+        margin-bottom: 5px;
+      }
+
+      h4{
+        font-size: 12px;
+      }
+    }
+  }
+
+  .ctwp-depend-hidden.ctwp-depend-on{
+    display: none !important;
+  }
+
+  .ctwp-depend-visible.ctwp-depend-on{
+    border-top: 0 !important;
+  }
+}

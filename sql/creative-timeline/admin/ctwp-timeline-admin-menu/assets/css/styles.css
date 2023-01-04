@@ -1,0 +1,109 @@
+/**
+*
+* Dashboard Page CSS
+*
+*/
+
+.creative-plugin-dashboard .creative-header{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #BC4E9C;
+    padding-bottom: 15px;
+}
+.creative-plugin-dashboard .creative-logo img{
+    width: 150px;
+}
+.creative-plugin-dashboard .ctwp-title{
+    display: flex;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    background: -webkit-linear-gradient(#BC4E9C, #F80759);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 7px;
+}
+.creative-plugin-dashboard .ctwp-subtitle{
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+}
+.creative-plugin-dashboard .creative-heading{
+    margin-left: 20px;
+}
+.creative-plugin-dashboard .getting-started h1,.creative-plugin-dashboard .important-things h1,.creative-plugin-dashboard .how-to-use h1,.creative-plugin-dashboard .support h1{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    color: #3c434a;
+}
+.creative-plugin-dashboard{
+    margin-left: -20px;
+    padding: 0 30px 30px;
+}
+.creative-plugin-dashboard .important-things-content p,.creative-plugin-dashboard .important-things-list li,.getting-started-content ul li,.creative-plugin-dashboard .support li{
+    color: #3c434a;
+    font-size: 16px;
+    line-height: 25px;
+    font-style: normal;
+    align-items: center;
+    display: flex;
+}
+.creative-plugin-dashboard .how-to-use-list li{
+    color: #3c434a;
+    font-size: 16px;
+    line-height: 25px;
+    font-style: normal;
+}
+.creative-plugin-dashboard .ctwp-plugin-heading{
+    padding-top: 20px;
+}
+.creative-plugin-dashboard .important-things-content,.creative-plugin-dashboard .support-list{
+    display: flex;
+}
+.creative-plugin-dashboard .getting-started-content ul li:before,.support .support-list-head li:before{
+    content: url('../images/list-icon.png');
+    padding-right: 10px;
+    width: 36px;
+    height: 40px;
+}
+.creative-plugin-dashboard .getting-started-content ul,.important-things-list,.how-to-use-list,.support-list{
+    margin-left: 25px;
+}
+.creative-plugin-dashboard .how-to-use h1{
+    padding-top: 8px;
+}
+.creative-plugin-dashboard .doc-button .button-doc,.creative-plugin-dashboard .faq-button .button-faq,.creative-plugin-dashboard .ticket-button .button-ticket{
+    background-image: linear-gradient(#BC4E9C, #F80759);
+    font-weight: 500;
+    color: #e5f8f4;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.creative-plugin-dashboard .doc-button .button-doc:hover,.creative-plugin-dashboard .faq-button .button-faq:hover,.creative-plugin-dashboard .ticket-button .button-ticket:hover{
+    background-image: linear-gradient(#fbccde, #fbccde);
+    font-weight: 500;
+    border: solid 1px #BC4E9C;
+    background: -webkit-linear-gradient(#BC4E9C, #F80759);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.creative-plugin-dashboard .doc-list,.creative-plugin-dashboard .faq-list,.creative-plugin-dashboard .ticket-list{
+    display:flex;
+    align-items: center;
+}
+.creative-plugin-dashboard .support-list{
+    width: 74%;
+    margin: 0;
+    padding-left: 55px;
+}
+.creative-plugin-dashboard  .important-things-content,.creative-plugin-dashboard .how-to-use,.creative-plugin-dashboard .support-sec{
+    margin-top:40px;
+}

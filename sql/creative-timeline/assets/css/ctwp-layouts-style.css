@@ -1,0 +1,578 @@
+/**
+ * Creative Timeline layouts CSS
+ *
+ * @since 1.0.0
+ * @version 1.0.0
+ *
+ * */
+
+/* Start Creative Timeline Classic CSS */ 
+.ctwp-center-block.img-responsive.img-circle {
+    border-radius: 100%;
+}
+.ctwp-avatar-image {
+    text-align: center;
+}
+.ctwp-classic .ctwp-featured-container {
+    display: flex;
+}
+.ctwp-classic .ctwp-categories {
+    padding: 10px;
+    background: #1F98D7;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.ctwp-classic .ctwp-categories a {
+    text-decoration: none;
+    color: #fff;
+}
+.ctwp-classic .ctwp-title a {
+    text-decoration: none;
+}
+.ctwp-classic .ctwp-meta a {
+    text-decoration: none;
+}
+.ctwp-classic .ctwp-read-more a {
+    text-decoration: none;
+}
+
+.ctwp-classic .ctwp-entry:before,
+.ctwp-classic .ctwp-entry:after,
+.ctwp-classic .ctwp-entry .ctwp-entry-inner:before,
+.ctwp-classic .ctwp-entry .ctwp-entry-inner:after,
+.ctwp-classic.ctwp-vertical-line:before,
+.ctwp-classic.ctwp-vertical-line:after {
+	content: " ";
+	display: table;
+}
+.ctwp-classic.ctwp-entry:after,
+.ctwp-classic .ctwp-entry .ctwp-entry-inner:after,
+.ctwp-classic.ctwp-vertical-line:after {
+	clear: both;
+}
+.ctwp-classic.ctwp-vertical-line {
+    position: relative;
+}
+.ctwp-classic.ctwp-vertical-line:before {
+	background-color: #1F98D7;
+}
+.ctwp-classic.ctwp-vertical-line:before {
+	content: '';
+	position: absolute;
+	display: block;
+    width: 3px;
+	left: 50%;
+    transform: translateX(-50%);
+	top: 0;
+	bottom: 0;
+}
+.ctwp-classic .ctwp-entry {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	position: relative;
+	width: 50%;
+	clear: both;
+}
+.ctwp-classic .ctwp-entry:nth-child(odd) {
+    float: left;
+}
+.ctwp-classic .ctwp-entry:nth-child(even) {
+    float: right;
+}
+.ctwp-classic .ctwp-entry:nth-child(odd) .ctwp-entry-inner {
+    margin-left: 0;
+    margin-right: -40px;
+}
+.ctwp-classic .ctwp-entry:nth-child(even) .ctwp-entry-inner {
+    margin-left: -40px;
+    margin-right: 0px;
+}
+.ctwp-classic .ctwp-entry:nth-child(odd) .ctwp-entry-inner .ctwp-icon {
+    float: right;
+}
+.ctwp-classic .ctwp-entry:nth-child(even) .ctwp-entry-inner .ctwp-icon {
+    float: left;
+}
+.ctwp-classic .ctwp-entry:nth-child(odd) .ctwp-entry-inner .ctwp-data-container {
+    margin-left: 0;
+    margin-right: 120px;
+}
+.ctwp-classic .ctwp-entry:nth-child(even) .ctwp-entry-inner .ctwp-data-container {
+    margin-left: 120px;
+    margin-right: 0px;
+}
+.ctwp-classic .ctwp-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0;
+    font-size: 0;
+    padding: 0;
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color:  #1F98D7;
+    margin-top:50px;
+}
+.ctwp-classic .ctwp-icon i {
+    font-size: 22px;
+    color: #000000;
+}
+.ctwp-classic .ctwp-entry .ctwp-entry-inner .ctwp-data-container {
+	position: relative;
+	background-clip: padding-box;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px 30px 15px;
+    background-color: #ffffff;
+}
+.ctwp-classic .ctwp-featured-container {
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.ctwp-classic .ctwp-feature-image {
+    min-width: 100px; 
+    max-width: 100px;
+    max-height: 100px;
+}
+.ctwp-classic .ctwp-feature-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+.ctwp-classic h3.ctwp-title {
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+.ctwp-classic .ctwp-meta-container,
+.ctwp-classic .ctwp-rmss-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.ctwp-classic .ctwp-meta-container i {
+    margin-right: 5px;
+}
+.ctwp-classic .ctwp-meta.comment {
+    margin-left: 10px;
+}
+.ctwp-classic .ctwp-tag-container {
+    margin-bottom: 15px;
+}
+.ctwp-classic .ctwp-content {
+    margin-bottom: 15px;
+}
+.ctwp-classic .ctwp-social-share span {
+	padding-left: 15px;
+}
+.ctwp-classic .ctwp-categories a, .ctwp-classic .ctwp-tag a {
+    padding: 3px 10px;
+    border-radius: 5px;
+    line-height: normal;
+}
+.ctwp-classic .ctwp-categories a {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.ctwp-classic .ctwp-read-more a {
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.ctwp-classic .ctwp-featured-container{
+    display: flex;
+    align-items: center;
+}
+.ctwp-classic .ctwp-entry:nth-child(even) .ctwp-data-container:before{
+    right: 100%;
+    content: "";
+    border: 25px solid transparent;
+    border-right-color: #fff;
+    position: absolute;
+    top: 15%;
+}
+.ctwp-classic .ctwp-entry:nth-child(odd) .ctwp-data-container:before{
+    left: 100%;
+    content: "";
+    border: 25px solid transparent;
+    border-left-color: #fff;
+    position: absolute;
+    top: 15%;
+}
+.ctwp-classic .ctwp-data-container.non-focus {
+    margin-top: 90px;
+    transform: rotateZ(30deg);
+    transition: all 0.8s ease-in-out;
+}
+.ctwp-classic .ctwp-data-container.non-focus:before {
+    opacity: 0;
+    background-color: #aaa;
+}
+
+@media only screen and (max-width: 768px) {
+	.ctwp-classic .ctwp-entry:nth-child(even) .ctwp-entry-inner {
+		margin-left: 0;
+	}
+    .ctwp-classic .ctwp-entry:nth-child(odd) .ctwp-entry-inner {
+		margin-right: 0;
+	}
+	.ctwp-classic .ctwp-entry:nth-child(odd) .ctwp-entry-inner .ctwp-data-container,
+	.ctwp-classic .ctwp-entry:nth-child(even) .ctwp-entry-inner .ctwp-data-container {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.ctwp-classic .ctwp-entry {
+		width: 100%;
+	}
+	.ctwp-classic .ctwp-entry:nth-child(odd) .ctwp-entry-inner .ctwp-icon,
+    .ctwp-classic .ctwp-entry:nth-child(even) .ctwp-entry-inner .ctwp-icon {
+        float: unset;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .ctwp-classic h3.ctwp-title {
+        font-size: 18px;
+    }
+    .ctwp-classic .ctwp-entry .ctwp-entry-inner .ctwp-data-container {
+        padding: 20px 15px 5px;
+    }
+    .ctwp-classic .ctwp-feature-image {
+        min-width: 80px;
+        height: 80px;
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .ctwp-classic .ctwp-entry:nth-child(even) .ctwp-data-container:before,.ctwp-classic .ctwp-entry:nth-child(odd) .ctwp-data-container:before{
+        display: none;
+    }
+}
+/* End Creative Timeline Classic CSS */ 
+
+/* Start Creative Timeline Artistic CSS */
+
+.ctwp-center-block.img-responsive.img-square {
+    border-radius: 0;
+}
+.ctwp-artistic .ctwp-entry-inner .ctwp-data-container {
+    padding: 80px 30px;
+    align-items: center;
+}
+.ctwp-artistic .ctwp-tag-meta-container, .ctwp-artistic .ctwp-rmss-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.ctwp-artistic .ctwp-content {
+    margin-bottom: 15px;
+}
+.ctwp-artistic .ctwp-rmss-container {
+    margin-bottom: 0px;
+}
+.ctwp-artistic .ctwp-meta.comment {
+    margin-left: 10px;
+}
+.ctwp-artistic .ctwp-tag-meta-container i, .ctwp-artistic .ctwp-meta-date i {
+    margin-right: 5px;
+}
+.ctwp-artistic .ctwp-categories a, .ctwp-artistic .ctwp-tag a {
+    padding: 3px 10px;
+    line-height: normal;
+}
+.ctwp-artistic .ctwp-read-more a {
+    padding: 10px 30px;
+    display: inline-block;
+    font-weight: 700;
+}
+.ctwp-artistic .ctwp-social-share span {
+	padding-left: 20px;
+}
+.ctwp-artistic .ctwp-data-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.ctwp-artistic .ctwp-featured-img-container {
+    min-width: 35%;
+    max-width: 35%;
+    height: auto;
+}
+.ctwp-artistic .ctwp-featured-container {
+    width: 100%;
+}
+.ctwp-artistic .ctwp-feature-image {
+    height: 100%;
+}
+.ctwp-artistic .ctwp-feature-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: polygon(20% 0, 100% 0%, 80% 100%, 0% 100%);
+    transition: all linear 0.3s;;
+}
+.ctwp-artistic .ctwp-feature-image img:hover {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+.ctwp-artistic .ctwp-entry:nth-child(even) .ctwp-data-container {
+    flex-direction: row-reverse;
+}
+.ctwp-artistic .ctwp-entry {
+    border-bottom: 1px solid;
+}
+.ctwp-artistic .ctwp-categories {
+    padding: 10px;
+    background: #00909D;
+    border-radius: 5px;
+}
+.ctwp-artistic .ctwp-categories a {
+    color:#fff;
+    text-decoration: none !important;
+}
+.ctwp-artistic .ctwp-title a {
+    text-decoration: none;
+}
+.ctwp-artistic .ctwp-title {
+    padding-top: 25px;
+}
+.ctwp-artistic .ctwp-meta a {
+    text-decoration: none;
+}
+.ctwp-artistic .ctwp-read-more a {
+    text-decoration: none;
+}
+.ctwp-artistic .ctwp-categories-container {
+    display: inline-block;
+}
+.ctwp-artistic .ctwp-meta-date-container {
+    display: inline-flex;
+    float: right;
+}
+
+@media (max-width: 767px) {
+    .ctwp-artistic .ctwp-entry-inner .ctwp-data-container {
+        padding: 30px 10px;
+    }
+    .ctwp-artistic .ctwp-featured-img-container {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .ctwp-artistic .ctwp-data-container {
+        display: block;
+    }
+    .ctwp-artistic .ctwp-featured-container {       
+        margin-top: 30px;
+    }
+}
+/* End Creative Timeline Artistic CSS */ 
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.ctwp-classic.inandout .ctwp-data-container {
+list-style-type: none;
+position: relative;
+margin: 0 auto;
+padding-top: 50px;
+background: #fff;
+}
+
+.ctwp-classic.inandout .ctwp-data-container{
+position: relative;
+bottom: 0;
+padding: 15px;
+background: #f45b69;
+}
+
+.ctwp-classic.inandout .ctwp-data-container::before {
+content: "";
+position: absolute;
+bottom: 7px;
+width: 0;
+height: 0;
+border-style: solid;
+}
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.ctwp-classic.inandout .ctwp-data-container::after {
+    transition: background 0.5s ease-in-out;
+}
+
+.ctwp-classic.inandout .ctwp-data-container.in-view::after {
+    background: #f45b69;
+}
+
+.ctwp-classic.inandout .ctwp-data-container{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.ctwp-classic .ctwp-entry:nth-child(odd) .ctwp-data-container.in-view{
+    transform: translate3d(12px, 0, 0);
+}
+
+.ctwp-classic .ctwp-entry:nth-child(even) .ctwp-data-container.in-view {
+    transform: translate3d(-12px, 0, 0);
+}
+
+.ctwp-classic.inandout .ctwp-data-container.in-view {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+}  
+
+
+    /* GENERAL MEDIA QUERIES
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+    .ctwp-classic.inandout .ctwp-data-container div {
+        width: 250px;
+    }
+    .ctwp-classic.inandout .ctwp-data-container:nth-child(even) div {
+        left: -289px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ctwp-classic.inandout .ctwp-data-container {
+        margin-left: 20px;
+    }
+    .ctwp-classic.inandout .ctwp-data-container div {
+        width: calc(100vw - 91px);
+    }
+    .ctwp-classic.inandout .ctwp-data-container:nth-child(even) div {
+        left: 45px;
+    }
+    .ctwp-classic.inandout .ctwp-data-container:nth-child(even) div::before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent #f45b69 transparent transparent;
+    }
+} 
+
+.ctwp-classic.inandout .ctwp-data-container {
+    list-style-type: none;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #fff;
+}
+
+.ctwp-classic.inandout .ctwp-data-container{
+    position: relative;
+    bottom: 0;
+    padding: 15px;
+    background: #f45b69;
+}
+
+.ctwp-classic.inandout .ctwp-data-container::before {
+    content: "";
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.ctwp-classic.inandout .ctwp-data-container::after {
+    transition: background 0.5s ease-in-out;
+}
+
+.ctwp-classic.inandout .ctwp-data-container.in-view::after {
+    background: #f45b69;
+}
+
+.ctwp-classic.inandout .ctwp-data-container{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.ctwp-classic .ctwp-entry:nth-child(odd) .ctwp-data-container.in-view{
+    transform: translate3d(12px, 0, 0);
+}
+
+.ctwp-classic .ctwp-entry:nth-child(even) .ctwp-data-container.in-view {
+    transform: translate3d(-12px, 0, 0);
+}
+
+.ctwp-classic.inandout .ctwp-data-container.in-view {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+}  
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+    .ctwp-classic.inandout .ctwp-data-container div {
+        width: 250px;
+    }
+    .ctwp-classic.inandout .ctwp-data-container:nth-child(even) div {
+        left: -289px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ctwp-classic.inandout .ctwp-data-container {
+        margin-left: 20px;
+    }
+    .ctwp-classic.inandout .ctwp-data-container div {
+        width: calc(100vw - 91px);
+    }
+    .ctwp-classic.inandout .ctwp-data-container:nth-child(even) div {
+        left: 45px;
+    }
+    .ctwp-classic.inandout .ctwp-data-container:nth-child(even) div::before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent #f45b69 transparent transparent;
+    }
+} 
+
+.ctwp-artistic.fadeup .ctwp-data-container {
+    opacity:0;
+    visibility: hidden; 
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);  
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.ctwp-artistic.fadeleftright .ctwp-entry:nth-child(even) .ctwp-data-container {
+    opacity:0;
+    visibility: hidden;
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+
+.ctwp-artistic.fadeleftright .ctwp-entry:nth-child(odd) .ctwp-data-container {
+    opacity:0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}

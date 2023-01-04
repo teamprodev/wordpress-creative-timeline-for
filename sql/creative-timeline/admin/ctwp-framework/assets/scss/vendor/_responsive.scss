@@ -1,0 +1,166 @@
+/**
+ * 12. Responsive
+ */
+@media only screen and (max-width:1200px) {
+
+  .ctwp-metabox{
+
+    .ctwp-field{
+
+      .ctwp-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .ctwp-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:782px) {
+
+  .ctwp-header-inner{
+    text-align: center;
+
+    h1{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .ctwp-form-result{
+    float: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .ctwp-search,
+  .ctwp-header-right,
+  .ctwp-header-left{
+    width: 100%;
+  }
+
+  .ctwp-search{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .ctwp-footer{
+    text-align: center;
+  }
+
+  .ctwp-buttons{
+    float: none;
+  }
+
+  .ctwp-copyright{
+    float: none;
+    margin-top: 10px;
+  }
+
+  .ctwp-nav,
+  .ctwp-expand-all,
+  .ctwp-reset-section,
+  .ctwp-nav-background{
+    display: none !important;
+  }
+
+  .ctwp-nav-normal + .ctwp-content{
+    margin-left: 0;
+  }
+
+  .ctwp-section-title,
+  .ctwp-section{
+    display: block !important;
+  }
+
+  .ctwp-field{
+
+    .ctwp-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .ctwp-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .ctwp-field-color{
+
+    .button.wp-picker-clear{
+      padding: 0 8px;
+      line-height: 2.14285714;
+      min-height: 32px;
+    }
+  }
+
+  .ctwp-modal-inner{
+    width: 350px;
+    height: 400px;
+  }
+
+  .ctwp-modal-content{
+    height: 237px;
+  }
+
+  .ctwp-icon-dialog{
+
+    .ctwp-modal-inner{
+      width: 305px;
+      height: 380px;
+    }
+
+    .ctwp-modal-content{
+      height: 267px;
+    }
+  }
+
+  .ctwp-modal-icon{
+
+    .ctwp-modal-inner{
+      width: 330px;
+      height: 385px;
+    }
+
+    .ctwp-modal-content{
+      height: 252px;
+    }
+  }
+
+  .ctwp-profile-options,
+  .ctwp-taxonomy-edit-fields{
+
+    > .ctwp-field{
+
+      > .ctwp-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      > .ctwp-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+
+  .ctwp-nav-menu-options{
+
+    > .ctwp-fields{
+      margin-left: -10px;
+      margin-right: -10px;
+
+      > .ctwp-field{
+        padding: 10px;
+      }
+    }
+  }
+}

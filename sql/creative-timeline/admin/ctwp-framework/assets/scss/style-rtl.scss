@@ -1,0 +1,728 @@
+/**
+ *
+ * ---------------------------------------------------------
+ * CTWP FRAMEWORK RTL CSS MAP
+ * ---------------------------------------------------------
+ *
+ * 01. Base
+ *     01. 01. Header
+ *     01. 02. Header Buttons
+ *     01. 03. Navigation
+ *     01. 04. Content
+ *     01. 05. Section
+ *     01. 06. Show All Settings
+ *     01. 07. Search Input
+ *     01. 08. Copyright
+ *     01. 09. Metabox
+ * 02. Fields
+ *     02. 01. Field: typography
+ *     02. 02. Field: checkbox, radio
+ *     02. 03. Field: switcher
+ *     02. 04. Field: upload
+ *     02. 05. Field: group
+ *     02. 06. Field: repeater
+ *     02. 07. Field: help
+ *     02. 08. Field: icon
+ *     02. 09. Field: gallery
+ *     02. 10. Field: sorter
+ *     02. 11. Field: tabbed
+ *     02. 12. Field: media
+ *     02. 13. Field: notice
+ *     02. 14. Field: border, spacing, dimensions
+ *     02. 15. Field: background
+ *     02. 16. Field: spinner
+ *     02. 17. Field: slider
+ *     02. 18. Field: button_set
+ *     02. 19. Field: link_color
+ *     02. 20. Field: color_group
+ *     02. 21. Field: palette
+ *     02. 22. Field: accordion
+ *     02. 23. Field: date
+ *     02. 24. Field: map
+ *     02. 25. Field: sortable
+ *     02. 26. Field: number
+ * 03. Taxonomy
+ * 04. Profile
+ * 05. Nav Menu
+ * 06. Modal
+ * 07. Customizer
+ * 08. Responsive
+ * 09. Others
+ *
+ * ---------------------------------------------------------
+ *
+ */
+
+/**
+ * 01. Base
+ */
+.ctwp-options{
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/**
+ * 01. 01. Header
+ */
+.ctwp-header{
+  h1{
+    float: right;
+  }
+
+  fieldset{
+    float: left;
+  }
+}
+
+/**
+ * 01. 02. Header Buttons
+ */
+.ctwp-buttons{
+  float: left;
+  direction: ltr;
+}
+
+.ctwp-header-left{
+  float: right;
+}
+
+.ctwp-header-right{
+  float: left;
+}
+
+/**
+ * 01. 03. Navigation
+ */
+.ctwp-nav{
+  float: right;
+
+  ul{
+    clear: right;
+
+    li{
+      .ctwp-active:after{
+        right: auto;
+        left: 0;
+        border-left-color: #fff;
+        border-right-color: transparent;
+      }
+
+      .ctwp-arrow:after{
+        content: "\f053";
+        right: auto;
+        left: 10px;
+      }
+
+      &.ctwp-tab-expanded .ctwp-arrow:after{
+        transform: rotate(-90deg);
+      }
+    }
+
+    ul{
+      li{
+        a{
+          padding-right: 25px;
+          padding-left: 15px;
+        }
+      }
+
+      &:before{
+        left: auto;
+        right: 15px;
+      }
+    }
+  }
+
+  .ctwp-tab-icon{
+    margin-left: 5px;
+    margin-right: 0;
+  }
+}
+
+.ctwp-nav-background{
+  left: auto;
+  right: 0;
+}
+
+/**
+ * 01. 04. Content
+ */
+.ctwp-content{
+  margin-left: 0;
+  margin-right: 225px;
+}
+
+/**
+ * 01. 05. Section
+ */
+.ctwp-sections{
+  float: right;
+}
+
+/**
+ * 01. 06. Show all options
+ */
+.ctwp-show-all .ctwp-content{
+  margin-right: 0;
+  overflow: hidden;
+}
+
+.ctwp-expand-all{
+  float: right;
+  right: auto;
+  left: 40px;
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+/**
+ * 01. 07. Search Input
+ */
+.ctwp-search{
+  float: right;
+
+  input{
+    margin: 0 0 0 5px;
+  }
+}
+
+/**
+ * 01. 08. Copyright
+ */
+.ctwp-copyright{
+  float: right;
+}
+
+/**
+ * 01. 09. Metabox
+ */
+.ctwp-metabox{
+  margin: -6px -12px -12px -12px;
+
+  .ctwp-section-title{
+    padding: 20px;
+  }
+}
+
+.ctwp-section-title{
+
+  .ctwp-section-icon{
+    margin-left: 5px;
+    margin-right: 0;
+  }
+}
+
+/**
+ * 02. Fields
+ */
+.ctwp-field{
+
+  .ctwp-title{
+    float: right;
+  }
+
+  .ctwp-fieldset{
+    float: left;
+  }
+}
+
+.ctwp-pseudo-field{
+  padding: 0 0 0 5px !important;
+}
+
+/**
+ * 02. 01. Field: typography
+ */
+.ctwp-field-typography{
+
+  select{
+    margin: 0;
+    width: 100%;
+  }
+
+  .ctwp--blocks-inputs{
+    .ctwp--blocks{
+      flex-direction: row-reverse;
+    }
+  }
+
+  .ctwp--unit{
+    left: 4px;
+    right: auto;
+  }
+}
+
+/**
+ * 02. 02. Field: checkbox, radio
+ */
+.ctwp-field-checkbox,
+.ctwp-field-radio{
+
+  ul ul li{
+    margin-left: 0;
+    margin-right: 8px;
+
+    &:first-child{
+      margin-right: 0;
+    }
+  }
+
+  .ctwp--inline-list li{
+    margin-right: 0;
+    margin-left: 15px;
+  }
+
+  .ctwp--text{
+    margin-left: 0;
+    margin-right: 5px;
+  }
+}
+
+/**
+ * 02. 03. Field: switcher
+ */
+.ctwp-field-switcher{
+
+  .ctwp--switcher{
+    float: right;
+  }
+
+  .ctwp--label{
+    float: right;
+    margin-left: 0;
+    margin-right: 5px;
+  }
+}
+
+/**
+ * 02. 04. Field: upload
+ */
+.ctwp-field-upload{
+
+  .ctwp--remove,
+  .ctwp--button{
+    margin-left: 0;
+    margin-right: 5px;
+  }
+}
+
+/**
+ * 02. 05. Field: group
+ */
+.ctwp-field-group{
+
+  .ctwp-cloneable-title{
+    padding: 15px 10px 15px 65px;
+  }
+
+  .ctwp-cloneable-helper{
+    right: auto;
+    left: 10px;
+  }
+}
+
+/**
+ * 02. 06. Field: repeater
+ */
+.ctwp-field-repeater{
+
+  .ctwp-repeater-helper{
+    border-left: 0;
+    border-right: 1px solid #eee;
+  }
+}
+
+/**
+ * 02. 07. Field: help
+ */
+.ctwp-help{
+  right: auto;
+  left: 5px;
+}
+
+/**
+ * 02. 08. Field: icon
+ */
+.ctwp-field-icon{
+
+  .button{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .ctwp-icon-preview i{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+
+/**
+ * 02. 09. Field: gallery
+ */
+.ctwp-field-gallery{
+
+  ul li{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .button{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+
+/**
+ * 02. 11. Field: tabbed
+ */
+.ctwp-field-tabbed{
+
+  .ctwp-tabbed-nav{
+
+    .ctwp--icon{
+      padding-right: 0;
+      padding-left: 5px;
+    }
+
+    a{
+      margin-right: 0;
+      margin-left: 5px;
+    }
+  }
+}
+
+/**
+ * 02. 12. Field: media
+ */
+.ctwp-field-media{
+
+  .button{
+    margin-left: 0;
+    margin-right: 7px;
+  }
+
+  .hidden + .button{
+    margin-right: 0;
+  }
+}
+
+/**
+ * 02. 13. Field: notice
+ */
+.ctwp-notice{
+  border-left: none;
+  border-right-style: solid;
+  border-right-width: 4px;
+}
+
+/**
+ * 02. 14. Field: border, spacing, dimensions
+ */
+.ctwp-field-dimensions,
+.ctwp-field-spacing,
+.ctwp-field-border{
+
+  .ctwp--input,
+  .ctwp-fieldset{
+    direction: ltr;
+  }
+
+  .ctwp--inputs,
+  .ctwp--color{
+    float: right;
+  }
+
+  .ctwp--color{
+    margin-right: 4px;
+    direction: rtl;
+  }
+}
+
+/**
+ * 02. 15. Field: background
+ */
+.ctwp-field-background{
+
+  .ctwp--block{
+    float: right;
+  }
+
+  .ctwp--select,
+  .ctwp--media{
+    padding-right: 0;
+  }
+
+  .ctwp--title{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+
+/**
+ * 02. 16. Field: spinner
+ */
+.ctwp-field-spinner{
+
+  .ctwp--spin{
+    float: right;
+    direction: ltr;
+  }
+}
+
+/**
+ * 02. 17. Field: slider
+ */
+.ctwp-field-slider{
+
+  .ctwp-slider-ui{
+    direction: ltr;
+    margin-right: 0;
+    margin-left: 15px;
+  }
+
+  .ctwp--input{
+    direction: ltr;
+  }
+}
+
+/**
+ * 02. 18. Field: button_set
+ */
+.ctwp-field-button_set{
+
+  .ctwp--button-group{
+    float: right;
+  }
+}
+
+/**
+ * 02. 19. Field: link_color
+ */
+.ctwp-field-link_color{
+
+  .ctwp--left{
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+  }
+}
+
+/**
+ * 02. 20. Field: color_group
+ */
+.ctwp-field-color_group{
+
+  .ctwp--left{
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+  }
+}
+
+/**
+ * 02. 21. Field: palette
+ */
+.ctwp-field-palette{
+
+  .ctwp--palette{
+    margin-right: 0;
+    margin-left: 10px;
+  }
+}
+
+/**
+ * 02. 22. Field: accordion
+ */
+.ctwp-field-accordion{
+
+  .ctwp--icon{
+    margin-right: 0;
+    margin-left: 2px;
+  }
+}
+
+/**
+ * 02. 23. Field: date
+ */
+.ctwp-field-date{
+
+  .ctwp--to {
+    margin-left: 0;
+    margin-right: 7px;
+  }
+}
+
+/**
+ * 02. 24. Field: map
+ */
+.ctwp-field-map{
+
+  .ctwp--map-input:last-child {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+}
+
+/**
+ * 02. 25. Field: sortable
+ */
+.ctwp-field-sortable{
+
+  .ctwp-sortable-helper{
+    border-left: none;
+    border-right: 1px solid #eee;
+  }
+}
+
+/**
+ * 02. 26. Field: number
+ */
+.ctwp-field-number{
+
+  .ctwp--wrap{
+    float: right;
+  }
+
+  .ctwp--unit{
+    left: 4px;
+    right: auto;
+  }
+}
+
+/**
+ * 03. Taxonomy
+ */
+.ctwp-taxonomy-add-fields{
+  margin-right: 0;
+  margin-left: 30px;
+
+  .ctwp-field > .ctwp-fieldset > .ctwp-help{
+    left: -5px;
+    right: auto;
+  }
+}
+
+.ctwp-taxonomy-edit-fields{
+  margin-right: 0;
+  margin-left: 35px;
+
+  .ctwp-field > .ctwp-fieldset > .ctwp-help{
+    right: auto;
+    left: -5px;
+  }
+}
+
+/**
+ * 04. Profile
+ */
+.ctwp-profile-options{
+
+  > h2 > .fa{
+    padding-right: 0;
+    padding-left: 7px;
+  }
+
+  > .ctwp-field{
+
+    > .ctwp-fieldset{
+
+      > .ctwp-help{
+        left: -5px;
+        right: auto;
+      }
+    }
+  }
+}
+
+/**
+ * 05. Nav Menu
+ */
+.ctwp-nav-menu-options{
+
+  > .ctwp-fields{
+    margin-left: 0;
+    margin-right: -10px;
+  }
+}
+
+.ctwp-nav-menu-title {
+  padding-left: 14px;
+  padding-right: 12px;
+}
+
+.ctwp-nav-menu-icon{
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 06. Modal
+ */
+.ctwp-modal-content{
+
+  .ctwp-field{
+    padding: 15px 15px 15px 30px;
+  }
+}
+
+.ctwp-modal-title{
+  padding: 0 16px 0 36px;
+}
+
+.ctwp-modal-close{
+  right: auto;
+  left: 0;
+}
+
+/**
+ * 07. Customizer
+ */
+.control-section{
+
+  .ctwp-field{
+
+    .ctwp-fieldset{
+      margin-right: 0;
+    }
+  }
+}
+
+/**
+ * 08. Responsive
+ */
+@media only screen and (max-width:1200px) {
+  .ctwp-metabox .ctwp-field .ctwp-fieldset{
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width:782px) {
+  .ctwp .ctwp-fieldset,
+  .ctwp .ctwp-content{
+    margin-right: 0;
+  }
+}
+
+/**
+ * 09. Others
+ */
+.ctwp-field{
+
+  .ctwp--transparent-slider{
+    margin-left: 0;
+    margin-right: 2px;
+
+    .ui-slider-handle{
+      margin: 0 -11px;
+    }
+  }
+
+  .ctwp--transparent-offset{
+    background-position: center right;
+  }
+
+  .ctwp--transparent-text{
+    right: auto;
+    left: 10px;
+  }
+}
